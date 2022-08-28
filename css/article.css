@@ -1,0 +1,18 @@
+.article__header1 {
+    font-size: 40px;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.article__header2 {
+    font-size: 30px;
+    margin-top: 40px;
+    line-height: 1.3em;
+}
+
+.article__header3 {
+    text-decoration: underline;
+    margin-top: 70px;
+}
+
+/* Class "article" for the article block is actually created but i didn't have any idea what could i style in it so it's not in the instructions above :) */

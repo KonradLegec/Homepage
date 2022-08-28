@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-image: url(http://foto-hosting.pl/img/54/c9/3a/54c93ae8aefd2b822fe03e54db6ed0ef07da9eda.jpeg);
+    font-family: 'Roboto Mono', monospace;
+    color: hwb(0 80% 17%);
+    line-height: 2em;
+}
+
+.body--blue {
+    background-image: url(http://foto-hosting.pl/img/a9/37/56/a9375612cf88e779cdfd4f48dae3f7e942ada636.jpeg);
+}
+
+.container {
+    max-width: 1000px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hwb(0deg 27% 73% / 68%);
+    border-radius: 10px;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-right: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.button {
+    width: 170px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid hwb(0 17% 78%);
+    background-color: hwb(120 0% 50%);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: hwb(120 26% 35%);
+}
+
+.button--blue {
+
+    background-color: hwb(211 2% 56%);
+}
+
+.button--blue:hover {
+    background-color: hwb(211 9% 36%);
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+}

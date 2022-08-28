@@ -1,0 +1,29 @@
+.topBar {
+    width: 100%;
+    max-width: 1920px;
+    height: fit-content;
+    background-color: hwb(0deg 27% 73% / 68%);
+    border-radius: 10px;
+    padding-bottom: 5px;
+}
+
+.topBar__background {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topBar__imageBox {
+    width: 300px;
+    padding-top: 10px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topBar__image {
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

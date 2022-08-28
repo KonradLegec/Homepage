@@ -1,0 +1,36 @@
+
+.navigation {
+    max-width: 50%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    padding-left: 0px;
+}
+
+.navigation__item {
+    margin: 15px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: hwb(0 100% 0%);
+    display: block;
+}
+
+.navigation__link:visited {
+    color: hwb(0 100% 0%);
+}
+
+.navigation__link:hover {
+    color: hwb(0 48% 4%);
+    outline: none;
+}
+
+.navigation__link:active {
+    color: hwb(348 8% 14%);
+}
