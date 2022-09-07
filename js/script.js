@@ -8,8 +8,7 @@
     body.classList.toggle("body--blue");
   };
 
-  const toggleButton = () => {
-    const button = document.querySelector(".button");
+  const toggleButton = (button) => {
     if (button.innerText === "Włącz zielone tło") {
       button.innerText = "Włącz niebieskie tło";
       button.classList.toggle("button--blue");
@@ -22,8 +21,9 @@
   const init = () => {
     const button = document.querySelector(".button");
     button.addEventListener("click", toggleBackground);
-    button.addEventListener("click", toggleButton);
-
+    button.addEventListener("click", () => {
+      toggleButton(button);
+    });
     welcome();
   };
 
